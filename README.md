@@ -1,4 +1,5 @@
 # drainCUREWEB
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +69,7 @@
         }
 
         .logo img {
-            height: 30px; /* Adjusted logo size - even smaller */
+            height: 30px; /* Adjusted logo size */
             margin-right: 10px;
         }
 
@@ -102,14 +103,14 @@
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('CitySkylineSouthAfrica.jpeg') no-repeat center center/cover;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('CapeTownSkyline.jpg') no-repeat center center/cover; /* Changed background image */
             color: white;
             padding: 100px 20px;
             text-align: center;
         }
 
         .hero h1 {
-            font-size: 3em; /* Adjusted to help fit on one line */
+            font-size: 2.5em; /* Adjusted to a slightly smaller font size */
             margin-bottom: 15px;
             color: white;
         }
@@ -410,7 +411,7 @@
                 margin: 5px 0;
             }
             .hero h1 {
-                font-size: 2.2em; /* Further adjustment for smaller screens */
+                font-size: 2em; /* Adjusted for smaller screens */
             }
             .hero p {
                 font-size: 1em;
@@ -428,10 +429,10 @@
 
         @media (max-width: 480px) {
             .hero h1 {
-                font-size: 1.8em; /* Even smaller for very small screens */
+                font-size: 1.6em; /* Even smaller for very small screens */
             }
             .logo img {
-                height: 40px;
+                height: 30px; /* Keep logo size consistent */
             }
             .logo span {
                 font-size: 1.5em;
