@@ -458,7 +458,7 @@
     <header>
         <div class="container navbar">
             <div class="logo">
-                <img src="bioCURE logo.png" alt="bioCURE Logo">
+                <img src="newbiocurelogo.png" alt="bioCURE Logo">
                 <span>drainCURE</span>
             </div>
             <nav>
